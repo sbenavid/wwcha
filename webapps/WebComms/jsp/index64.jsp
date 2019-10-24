@@ -88,16 +88,17 @@
 
 %> test@gmail.com
 
- <FRAMESET onload="Javascript:onLoadDo()" ROWS="60%, 5%, 25%, 0%, 0%" border="0">
+<FRAMESET onload="Javascript:onLoadDo()" ROWS="60%, 20%, 12%, 8%, 0%, 0%" border="0">
 
-        <FRAMESET COLS="100%,0%" border="0">
+	<FRAME SRC="banner.jsp" name="banner">
+        <FRAMESET COLS="5%,95%" border="0">
         	<FRAME SRC="chatdisplay64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>" name="chatdisplay">
                 <FRAME SRC="onhold64.jsp" name="maincontrol">
         </FRAMESET>
-        
-        <FRAME SRC="status64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>" name="statuscontrol" scrolling=none></FRAME>
-        <FRAME SRC="chatwrite64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>&telnumber=<%=telnumber%>" name="chatwrite"></FRAME>
-
+ 	<FRAMESET COLS="10%,90%" border="0">
+		<FRAME SRC="status64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>" name="statuscontrol" scrolling=none>
+                    <FRAME SRC="chatwrite64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>&telnumber=<%=telnumber%>" name="chatwrite">
+	</FRAMESET>
         <FRAME SRC="footer.jsp" name="footer">
 	<FRAME SRC="hidden64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>" name="wcControl"> <!-- Refreshes every 3 seconds to update chat history and agent messages -->
 	<FRAME SRC="heartbeat.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>" name="wcHeartbeat"> <!-- Session heartbeat. Runs every 30 seconds -->
