@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <description>Provides examples of how to use the CI Web Services</description>
+  <display-name>AACC Web Communications Manager</display-name>
+
+  <context-param>
+    <description>Version number of Reference Implementation. Do not change.</description>
+    <param-name>VERSION_NUMBER</param-name>
+    <param-value>CCMM_ExternalServerInstall_v6</param-value>
+  </context-param>
+
+  <context-param>
+    <description>The Hostname of the CCMM Server</description>
+    <param-name>CCMM_HOSTNAME</param-name>
+    <param-value>192.168.35.10</param-value>
+  </context-param>
+  <context-param>
+    <description>The Hostname of the Web Server hosting the WebComms application</description>
+    <param-name>WEBCOMMS_HOSTNAME</param-name>
+    <param-value>192.168.33.196</param-value>
+  </context-param>
+    <context-param>
+    <description>The port number used by the WebComms Application, default is 8080</description>
+    <param-name>WEBCOMMS_PORT</param-name>
+    <param-value>8080</param-value>
+  </context-param>
+  <context-param>
+    <description>The port number used by the WebComms Application, default is 8080</description>
+    <param-name>HOME_PATH</param-name>
+    <param-value>/CI_Sample_Website/requestTextChat.jsp</param-value>
+  </context-param>
+
+</web-app>

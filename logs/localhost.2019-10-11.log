@@ -1,0 +1,40 @@
+11/10/2019 10:19:50 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/CI_Sample_Website] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP /registerNewCustomer_WSClient.jsp en línea 40
+
+37: custPhoneNumber.setNumber           ( request.getParameter("phoneNumber") );
+38: 
+39: String PhoneNumberType = request.getParameter("phoneType");
+40: CIPhoneNumberType phoneType = CIPhoneNumberType.fromString(PhoneNumberType);
+41: custPhoneNumber.setPhoneNumberType( phoneType );
+42:         
+43: custAddress.setLine1  ( request.getParameter("line1") );
+
+
+Stacktrace:] con causa raíz
+java.lang.IllegalArgumentException
+	at com.nortel.applications.ccmm.ci.datatypes.CIPhoneNumberType.fromValue(CIPhoneNumberType.java:39)
+	at com.nortel.applications.ccmm.ci.datatypes.CIPhoneNumberType.fromString(CIPhoneNumberType.java:44)
+	at org.apache.jsp.registerNewCustomer_005fWSClient_jsp._jspService(registerNewCustomer_005fWSClient_jsp.java:112)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)

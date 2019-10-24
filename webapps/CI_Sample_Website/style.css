@@ -1,0 +1,128 @@
+/* LINKS */
+A:link:hover { color: #FF7200; text-decoration: none }
+A:link:active { color: #00CC00 }
+.linklight {
+	color: #FFFFFF; 
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none
+	}
+.linkdark {
+	color: #000000; 
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none
+	}
+.menulink {
+	color: #003399; 
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 10px
+	}
+.pagelink{
+  color: #003399;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration : none;
+	font-weight: bold;
+}
+	
+.title{
+  color: #CC0000; 
+	font-family: arial, helvetica, verdana, sans-serif;
+	text-decoration: none;
+        font-weight: bold;
+	font-size: 23px
+}
+
+
+
+.infotext {
+        font-family: verdana, arial, helvetica, sans-serif;        
+        font-weight: bold;
+        font-size: 11px
+}
+
+
+
+
+/* OVERALL STYLE */
+body, table, td {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	}
+
+
+.bold {
+	font-family: arial, helvetica, verdana, sans-serif;
+        font-weight: bold;
+        font-size: 20px
+	}
+
+.small {
+	font-size: 10px
+	}
+	
+.bighed {
+	color: #000000;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+.medhed {
+	color: #000000;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+.smallhed {
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+/* FONTS - WEIGHTS */
+.menu {
+	padding: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	}
+
+
+.label {
+        text-align: left;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+
+/* FORMS */
+.formlabel {
+	text-align: right;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+
+
+.cbox { background: none; border: none }
+.radio { background: none; border: none }
+
+
+
+input, textarea, select, option {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	border: solid #000000 1px;
+	background: #eeeeee 
+	}
+
+input.username {
+        font-family: verdana, arial, helvetica, sans-serif;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #12AD2B;
+        border: solid #989898 1px;
+        background: #COCOCO
+}
+

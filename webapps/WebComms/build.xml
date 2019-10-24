@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<project name="WebComms" default="build-distribution" basedir="../">
+
+	<property environment="env" />
+
+	<!-- Core Properties --> 
+	<!-- These will be overridden, as will the basedir, if this script -->
+	<!-- is running as an invocation of the master build script. -->
+	<!-- The only reason to have them here is to allow this script to be run on its own also -->
+	<property name="build" value="${basedir}/install/tempjavabuild"/>
+	<property name="distribution" value="${basedir}/bin"/>
+
+	
+	
+	<!-- Properties specific to this build --> 
+	<property name="source" value="${basedir}/WebComms"/>
+	<property name="build.webcomms" value="${build}/WebComms"/>
+
+	
+	<!-- The init target is run to set the classpath -->
+	<target name="init" >
+		<echo message="Using Base directory=${basedir}" />
+		<echo message="Using Source directory=${source}" />
+		<echo message="Using Distribution directory=${distribution}" />
+		<echo message="Using Build directory=${build}" />
+
+	</target>
+
+
+	<target name="clean-build" depends="init">
+  		<delete dir="${build.webcomms}" /> 
+  	</target>
+
+	<target name="build-war" depends="clean-build">
+		<mkdir dir="${build.webcomms}"/>
+		<war destfile="${build.webcomms}/WebComms.war" webxml="WebComms/WEB-INF/web.xml">
+		  <fileset dir="${source}" />
+		</war>
+
+	</target>
+
+
+	<target name="build-distribution" depends="build-war">
+		<copy file="${build.webcomms}/WebComms.war" todir="${distribution}" />
+	</target>
+
+</project>
+
+

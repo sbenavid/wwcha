@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project name="CCMM Web Collaboration" default="build-distribution" basedir="">
+
+	<property environment="env" />
+	
+	<property name="resources" value="../../../../common/lib"/>
+	<property name="build" value=""/>  
+	<property name="distribution" value=""/> 
+
+	<target name="init">
+		<path id="main_classpath">			
+			<fileset dir="${resources}">
+				<include name="*.jar"/>
+			</fileset>	
+			<fileset dir="${distribution}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>	
+		<property name="classpath_id" value="main_classpath"/>		
+		<property name="classpath" refid="${classpath_id}" />	
+		<echo message="Using base dir=${basedir}" />		
+		<echo message="Using base classpath=${classpath}" />		
+		<echo message="Using Build directory=${build}" />
+		<echo message="Using Distribution directory=${distribution}" />
+		<echo message="Using Resource directory=${resources}" />
+		<echo message="Using Documentation directory=${documentation}" />
+	</target>
+	
+		
+	<target name="build-distribution" depends="init">
+		<echo message="CCMM All Java Components Build Process Commencing ... " />
+
+		<antcall target="compile" />
+	</target>
+
+
+	<target name="compile" depends="init">
+		<mkdir dir="${build.mail.classes}"/>
+		<javac srcdir="${basedir}" destdir="${basedir}" debug="on" deprecation="on" optimize="off">
+			<classpath path="${classpath}" />			
+			<include name="*.java" />	
+		</javac>
+	</target>
+
+
+
+		
+</project>
+

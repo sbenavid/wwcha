@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <description>Provides examples of how to use the CI Web Services</description>
+  <display-name>CCMM 6.0 CI Sample Web Site</display-name>
+  <context-param>
+    <description>Version number of Reference Implementation. Do not change.</description>
+    <param-name>VERSION_NUMBER</param-name>
+    <param-value>CCMM_ExternalServerInstall_v6</param-value>
+  </context-param>
+  <context-param>
+    <description>The Hostname of the CCMM 6 Server</description>
+    <param-name>CCMM_HOSTNAME</param-name>
+    <param-value>192.168.35.10</param-value>
+  </context-param>
+  <context-param>
+    <description>The Hostname of an Email Server that will be used to send Email from the CI</description>
+    <param-name>EMAILSERVER_HOSTNAME</param-name>
+    <param-value>{EMAILSERVER_HOSTNAME}</param-value>
+  </context-param>
+  <context-param>
+    <description>The Hostname of the Web Server hosting the WebComms application</description>
+    <param-name>WEBCOMMS_HOSTNAME</param-name>
+    <param-value>192.168.33.196</param-value>
+  </context-param>
+    <context-param>
+    <description>The port number used by the WebComms Application, default is 8080</description>
+    <param-name>WEBCOMMS_PORT</param-name>
+    <param-value>8080</param-value>
+  </context-param>
+  <context-param>
+    <description>The URL Path used to access the WebComms Application</description>
+    <param-name>WEBCOMMS_PATH</param-name>
+    <param-value>/WebComms/jsp/index.jsp</param-value>
+  </context-param>
+  <context-param>
+    <description>Default Web Chat skillset for anonymous chat</description>
+    <param-name>WEBCOMMS_SKILLSET</param-name>
+    <param-value>WC_Default_Skillset</param-value>
+  </context-param>  
+  <context-param>
+    <description>The URL Path used to access the WebComms Application when not logged in as a customer</description>
+    <param-name>WEBCOMMS_PATH_ANONYMOUS</param-name>
+    <param-value>/WebComms/jsp/index64.jsp</param-value>
+  </context-param>
+  <context-param>
+    <description>The Email Skillset that Password Reminder Contacts will be created in</description>
+    <param-name>PASSWORD_REMINDER_SKILLSET</param-name>
+    <param-value>EM_Default_Skillset</param-value>
+  </context-param>
+  <context-param>
+    <description>This is the default Email Address that HTML forms will be emailed to, they will then be handled by the CCMM rules Engine</description>
+    <param-name>HTML_FORM_TO_ADDRESS</param-name>
+    <param-value>{HTML_FORM_TO_ADDRESS}</param-value>
+  </context-param>
+  <context-param>
+    <description>This is the default Subject value that HTML forms will have when submitted from the CI</description>
+    <param-name>HTML_FORM_SUBJECT</param-name>
+    <param-value>HTML Form Submitted from the Web</param-value>
+  </context-param>
+  <context-param>
+    <description>This is the default subject that will be used when creating the text chat contact for CCMM</description>
+    <param-name>TEXT_CHAT_SUBJECT</param-name>
+    <param-value>Text Chat Submitted from the Web</param-value>
+  </context-param>
+  <context-param>
+    <description>This is the default header that will be set as the first line of the 
+Email used to submit the HTML form to a CCMM Mailbox</description>
+    <param-name>HTML_FORM_RESULT_HEADER</param-name>
+    <param-value>Results of HTML Form submitted from the WWW</param-value>
+  </context-param>
+  <context-param>
+    <description>This is the number of contacts to display on the customer contact history page</description>
+    <param-name>NO_OF_CONTACTS_TO_DISPLAY</param-name>
+    <param-value>20</param-value>
+  </context-param>
+  <session-config>
+    <session-timeout>10</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+    <exception-type>java.lang.Exception</exception-type>
+    <location>/SoapErrorPage.jsp</location>
+  </error-page>
+</web-app>

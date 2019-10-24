@@ -1,0 +1,69 @@
+<%
+
+   //Avaya Aura Contact Center Multimedia 
+   //Copyright 2014 Avaya Inc. All Rights Reserved
+   
+   //Session close is already handled in exitFormImpl64.jsp
+   
+%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+                
+                
+                
+                <script type="text/javascript"> 
+                    
+                function onLoadDo()
+                {
+                        //	On window load resize
+                        resizeWindow(438, 438, 438, 415, 433, 397, 0);
+                }
+                
+                //	Resize pop-up according to browser used, and by possible extending length
+                function resizeWindow(ffPixelWidth, crPixelWidth, iePixelWidth, ffPixelLength, crPixelLength, iePixelLength, extendLength)
+                {
+                        if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent))
+                                window.resizeTo(ffPixelWidth, ffPixelLength + extendLength);	//	Firefox
+                        else if(navigator.userAgent.indexOf("Chrome") != -1)
+                                window.resizeTo(crPixelWidth, crPixelLength + extendLength);	//	Chrome
+                        else if(navigator.appName == "Microsoft Internet Explorer")
+                        {
+                                extendLength -= extendLength/14;
+                                window.resizeTo(iePixelWidth, iePixelLength + extendLength);	//	IE
+                        }
+                        else 
+                                window.resizeTo(iePixelWidth, iePixelLength + extendLength);	//	Resize others as of IE
+                }
+
+                </script>
+                
+                
+                
+	</head>
+
+	<body onload="Javascript:onLoadDo()" style="margin:0px;">
+            
+            <table id="banner" class="top_gradient" width="100%" border="0" cellspacing="0" cellpadding="0">
+            
+                <!--	Header & Logo	-->	
+                <tr>
+                        <td width="81" style="padding-top:25px;padding-left:50px;" align="right" valign="top" ><img alt="" src="img/smallLogo.png" /></td>
+                        <td width="349" style="padding-top:25px;padding-left:15px;" align="left" valign="top"><img alt="" src="img/chat.png"/></td>
+                        <td/> </td>
+                </tr>
+                
+                <!-- Goodbye Message -->
+                <tr height="200">
+                    <td colspan="3" align="center"><label align="center" style="font-size:14.0pt;">Thank you for visiting. Goodbye...</label></td>
+                </tr>
+               
+            </table>
+	</body>
+</html>

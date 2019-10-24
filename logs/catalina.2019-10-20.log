@@ -1,0 +1,15 @@
+20/10/2019 12:21:23 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+20/10/2019 03:03:02 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+20/10/2019 09:40:34 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+20/10/2019 10:21:03 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+20/10/2019 11:01:45 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.

@@ -1,0 +1,35 @@
+[2019-10-09 11:31:31] [info]  [ 8484] Commons Daemon procrun (1.0.15.0 32-bit) started
+[2019-10-09 11:31:31] [info]  [ 8484] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2019-10-09 11:31:31] [info]  [ 8484] Service 'Tomcat7' installed
+[2019-10-09 11:31:31] [info]  [ 8484] Commons Daemon procrun finished
+[2019-10-09 11:31:32] [info]  [ 8156] Commons Daemon procrun (1.0.15.0 32-bit) started
+[2019-10-09 11:31:32] [info]  [ 8156] Updating service...
+[2019-10-09 11:31:32] [info]  [ 8156] Service 'Tomcat7' updated
+[2019-10-09 11:31:32] [info]  [ 8156] Update service finished.
+[2019-10-09 11:31:32] [info]  [ 8156] Commons Daemon procrun finished
+[2019-10-09 11:31:32] [info]  [ 5704] Commons Daemon procrun (1.0.15.0 32-bit) started
+[2019-10-09 11:31:32] [info]  [ 5704] Updating service...
+[2019-10-09 11:31:32] [info]  [ 5704] Service 'Tomcat7' updated
+[2019-10-09 11:31:32] [info]  [ 5704] Update service finished.
+[2019-10-09 11:31:32] [info]  [ 5704] Commons Daemon procrun finished
+[2019-10-09 11:31:32] [info]  [ 9044] Commons Daemon procrun (1.0.15.0 32-bit) started
+[2019-10-09 11:31:32] [info]  [ 9044] Updating service...
+[2019-10-09 11:31:32] [info]  [ 9044] Service 'Tomcat7' updated
+[2019-10-09 11:31:32] [info]  [ 9044] Update service finished.
+[2019-10-09 11:31:32] [info]  [ 9044] Commons Daemon procrun finished
+[2019-10-09 11:31:35] [info]  [ 5968] Commons Daemon procrun (1.0.15.0 32-bit) started
+[2019-10-09 11:31:35] [info]  [ 5968] Running 'Tomcat7' Service...
+[2019-10-09 11:31:35] [info]  [ 8360] Starting service...
+[2019-10-09 11:31:36] [info]  [ 8360] Service started in 1177 ms.
+[2019-10-09 11:32:11] [info]  [ 8852] Stopping service...
+[2019-10-09 11:32:12] [info]  [ 8852] Service stop thread completed.
+[2019-10-09 11:32:12] [info]  [ 5968] Run service finished.
+[2019-10-09 11:32:12] [info]  [ 5968] Commons Daemon procrun finished
+[2019-10-09 11:32:20] [info]  [ 8380] Commons Daemon procrun (1.0.15.0 32-bit) started
+[2019-10-09 11:32:20] [info]  [ 8380] Running 'Tomcat7' Service...
+[2019-10-09 11:32:20] [info]  [ 5664] Starting service...
+[2019-10-09 11:32:22] [info]  [ 5664] Service started in 1117 ms.
+[2019-10-15 12:37:19] [info]  [ 3804] Stopping service...
+[2019-10-15 12:37:20] [info]  [ 3804] Service stop thread completed.
+[2019-10-15 12:37:20] [info]  [ 8380] Run service finished.
+[2019-10-15 12:37:20] [info]  [ 8380] Commons Daemon procrun finished

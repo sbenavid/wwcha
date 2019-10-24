@@ -1,0 +1,46 @@
+9/10/2019 11:31:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+9/10/2019 11:31:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+9/10/2019 11:31:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 11:34:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+9/10/2019 11:34:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+9/10/2019 11:34:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 11:43:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 11:43:18 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/CI_Sample_Website'
+9/10/2019 11:43:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/CI_Sample_Website'
+9/10/2019 11:43:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: Invalidating session id 53C185D9DE237C6DEE2978DD1138C4F4
+9/10/2019 11:43:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 11:43:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/WebComms'
+9/10/2019 11:43:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/WebComms'
+9/10/2019 11:43:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: Invalidating session id 4263B800541325C76D3C6E9B4BF9B4D4
+9/10/2019 11:43:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 11:46:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 11:48:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 11:48:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/CI_Sample_Website'
+9/10/2019 11:48:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'invalidateSessions' for web application '/CI_Sample_Website'
+9/10/2019 11:48:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: Invalidating session id 4301335BB0ABFDA07187B002F9B86289
+9/10/2019 11:48:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 12:31:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+9/10/2019 12:31:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'

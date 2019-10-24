@@ -1,0 +1,228 @@
+15/10/2019 09:27:16 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 10:25:46 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 10:40:25 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 10:55:00 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 12:11:49 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 12:37:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+15/10/2019 12:37:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 12:37:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio Catalina
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@c41dd4]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1826148]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@c0e5b9]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@29ea9c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1e9d810]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1680ba0]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1d33d46]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@15bfc1f]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@57ee6]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@16486a6]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@ce581b]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@46b68c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@7ac24b]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@169fc6f]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@13c117a]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@9f77c9]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1714f4a]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@cbe7c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@adc92c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1729115]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@1a3c2bf]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@931b44]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 12:37:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+15/10/2019 12:37:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 12:37:24 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+15/10/2019 12:37:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+15/10/2019 12:37:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 12:37:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1629 ms
+15/10/2019 12:37:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Arrancando servicio Catalina
+15/10/2019 12:37:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.54
+15/10/2019 12:37:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Despliegue del archivo C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\CI_Sample_Website.war de la aplicación web
+15/10/2019 12:37:27 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+15/10/2019 12:37:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\CI_Sample_Website.war has finished in 1.328 ms
+15/10/2019 12:37:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Despliegue del archivo C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\WebComms.war de la aplicación web
+15/10/2019 12:37:28 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\WebComms.war has finished in 1.016 ms
+15/10/2019 12:37:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Despliegue del directorio C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\docs de la aplicación web
+15/10/2019 12:37:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\docs has finished in 94 ms
+15/10/2019 12:37:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Despliegue del directorio C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\manager de la aplicación web
+15/10/2019 12:37:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\manager has finished in 109 ms
+15/10/2019 12:37:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Despliegue del directorio C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\ROOT de la aplicación web
+15/10/2019 12:37:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\ROOT has finished in 78 ms
+15/10/2019 12:37:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+15/10/2019 12:37:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 12:37:29 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2824 ms
+15/10/2019 12:39:03 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 12:50:25 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 01:17:39 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 01:33:34 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+15/10/2019 01:33:34 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 01:33:34 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio Catalina
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1553d18]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@11e31ea]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@15f0688]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1a5d193]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@16237e0]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1425e17]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@2f6aea]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1143614]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1ea6afc]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/CI_Sample_Website] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@ae264f]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@115fbb0]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1d71e34]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1ffeaea]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@97e111]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@139422b]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@2720f6]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@e50f2c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@473f4c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@18caa36]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1fac733]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: La aplicación web [/WebComms] creó un ThreadLocal con clave del tipo [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (valor [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@b3b3a5]) y un valor del tipo [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (valor [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@12c1472]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+15/10/2019 01:33:34 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+15/10/2019 01:33:34 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 01:33:44 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+15/10/2019 01:33:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+15/10/2019 01:33:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 01:33:45 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 669 ms
+15/10/2019 01:33:45 PM org.apache.catalina.core.StandardService startInternal
+INFO: Arrancando servicio Catalina
+15/10/2019 01:33:45 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.54
+15/10/2019 01:33:45 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Despliegue del archivo C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\CI_Sample_Website.war de la aplicación web
+15/10/2019 01:33:46 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+15/10/2019 01:33:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\CI_Sample_Website.war has finished in 1.110 ms
+15/10/2019 01:33:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Despliegue del archivo C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\WebComms.war de la aplicación web
+15/10/2019 01:33:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\WebComms.war has finished in 750 ms
+15/10/2019 01:33:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Despliegue del directorio C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\docs de la aplicación web
+15/10/2019 01:33:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\docs has finished in 93 ms
+15/10/2019 01:33:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Despliegue del directorio C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\manager de la aplicación web
+15/10/2019 01:33:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\manager has finished in 125 ms
+15/10/2019 01:33:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Despliegue del directorio C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\ROOT de la aplicación web
+15/10/2019 01:33:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\ROOT has finished in 79 ms
+15/10/2019 01:33:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+15/10/2019 01:33:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+15/10/2019 01:33:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2278 ms
+15/10/2019 01:44:59 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 02:02:14 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 02:19:29 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 02:36:45 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 03:11:14 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 03:28:31 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 05:12:00 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+15/10/2019 07:12:39 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error analizando cabecera de requerimiento HTTP
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
