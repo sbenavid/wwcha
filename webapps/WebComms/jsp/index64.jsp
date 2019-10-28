@@ -88,14 +88,14 @@
 
 %> test@gmail.com
 
-<FRAMESET onload="Javascript:onLoadDo()" ROWS="10%, 62%, 20%, 8%, 0%, 0%" border="0">
+<FRAMESET onload="Javascript:onLoadDo()" ROWS="50%, 40%, 8%, 2%, 0%, 0%" border="0">
 
 	<FRAME SRC="banner.jsp" name="banner">
-        <FRAMESET COLS="40%,60%" border="0">
+        <FRAMESET COLS="20%,80%" border="0">
         	<FRAME SRC="chatdisplay64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>" name="chatdisplay">
                 <FRAME SRC="onhold64.jsp" name="maincontrol">
         </FRAMESET>
- 	<FRAMESET COLS="24%,76%" border="0">
+ 	<FRAMESET COLS="20%,80%" border="0">
 		<FRAME SRC="status64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>" name="statuscontrol" scrolling=none>
                     <FRAME SRC="chatwrite64.jsp?sessionKey=<%=sessionKey%>&contactID=<%=contactID%>&telnumber=<%=telnumber%>" name="chatwrite">
 	</FRAMESET>
