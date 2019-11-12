@@ -370,7 +370,7 @@
       <input type="hidden" name="chatbox" value="<%=chatbox%>">
       <input type="hidden" name="type" value="<%=type%>">
       <input type="hidden" name="hiddenMessage" value="<%=hiddenMessage%>">
-      <input type="hidden" name="telnumber" value="<%=telnumber%>"><!-- Telephone number passed in by WebChat login screen -->
+      <input type="hidden" name="telnumber" value="<%=telnumber%>"><!-- Telephone number passed in by  login screen -->
       <input type="hidden" name="newnumber" value="<%=newnumber%>">
   </form>
  </tr>
